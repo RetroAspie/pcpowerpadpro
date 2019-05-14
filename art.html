@@ -1,6 +1,21 @@
 <html>
 <head>
 <style type=text/css>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-container {
+  min-height: 400px;
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 1800px 400px;
+  background-position: center top;
+  /*padding: 40px; (If don't want to set min-height or some image content is there) */
+}
+
 *,
 *:before,
 *:after {
@@ -80,6 +95,7 @@ p {
 </style>
 </head>
 <body>
+<div class="img-container"></div><!-- IMAGE CONTAINER -->
 <a href="https://pcpowerpadpro.bandcamp.com/" target="_blank"><img src="pcpowerpadpro.jpg" title="pcpowerpadpro" alt="pcpowerpadpro"></a>
 <br>
 <font size=20 face="Times New Roman"><a href="https://retroaspie.github.io/pcpowerpadpro/">pcpowerpadpro</a> - <a href="https://soundcloud.com/pcpowerpadpro">soundcloud</a> - <a href="https://pcpowerpadpro.bandcamp.com/">bandcamp</a> - <a href="art.html">art</a></font>
